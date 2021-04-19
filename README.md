@@ -7,7 +7,7 @@ The VAST Challenge 2019 presents three mini-challenges and a grand challenge for
 In disasters, people reach out to friends and family to check in and discuss what they see happening around them. The city and its emergency response teams are hoping to gain an understanding of the issues facing the citizenry through the social media posts, helping guide them into an information source as to where to focus efforts and what the concerns of the populace are.
 
 ## Project
-![image](images/project.png)
+![image](Images/project.png)
 
 ## Installation
 
