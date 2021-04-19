@@ -31,10 +31,10 @@ Use a JS enabled web browser with localhost (http://localhost:8000/) to run the 
 ## Directory Structure
 The Preprocessed data is updated completely into github repository. The following is the directory structure.
  
-Post-Disaster-Visualization-Dashboard/ - It's the root folder which has all the files.\
-Post-Disaster-Visualization-Dashboard/index.html - Html file which is needed to be run. \
-Post-Disaster-Visualization-Dashboard/scripts/index.js - The js file which has the complete d3 code to develop visualization \
-Post-Disaster-Visualization-Dashboard/CSS/style.css - The styling code is present in this file.\
-Post-Disaster-Visualization-Dashboard/Data/* - The preprocessed data which is read by the js scripts.\
-Post-Disaster-Visualization-Dashboard/Images/* - The image files necessary to represent the visualizations.\
-Post-Disaster-Visualization-Dashboard/preprocessing/* - The preprocessing scripts used to generate derived attributes.
+1. Post-Disaster-Visualization-Dashboard/ - It's the root folder which has all the files.\
+2. Post-Disaster-Visualization-Dashboard/index.html - Html file which is needed to be run. \
+3. Post-Disaster-Visualization-Dashboard/scripts/index.js - The js file which has the complete d3 code to develop visualization \
+4. Post-Disaster-Visualization-Dashboard/CSS/style.css - The styling code is present in this file.\
+5. Post-Disaster-Visualization-Dashboard/Data/* - The preprocessed data which is read by the js scripts.\
+6. Post-Disaster-Visualization-Dashboard/Images/* - The image files necessary to represent the visualizations.\
+7. Post-Disaster-Visualization-Dashboard/preprocessing/* - The preprocessing scripts used to generate derived attributes.
