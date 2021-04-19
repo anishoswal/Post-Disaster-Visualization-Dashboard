@@ -1,8 +1,7 @@
 # Post-Disaster Visualization Dashboard
 ## VAST 2019 Mini Challenge 3: Voice from the People
 
-
-The VAST Challenge 2019 presents three mini-challenges and a grand challenge for applying visual analytics research and technologies to help a city grapple with the aftermath of an earthquake that damages their nuclear power plant.
+The ![VAST Challenge 2019](https://vast-challenge.github.io/2019/MC3.html) presents three mini-challenges and a grand challenge for applying visual analytics research and technologies to help a city grapple with the aftermath of an earthquake that damages their nuclear power plant.
 
 In disasters, people reach out to friends and family to check in and discuss what they see happening around them. The city and its emergency response teams are hoping to gain an understanding of the issues facing the citizenry through the social media posts, helping guide them into an information source as to where to focus efforts and what the concerns of the populace are.
 
