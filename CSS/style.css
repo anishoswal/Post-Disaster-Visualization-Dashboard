@@ -1,0 +1,147 @@
+#wrapper {
+  /* margin:auto;
+  width:100%;
+  margin-top: 5%; */
+  position: relative;
+  margin-top: 70px;
+  margin-left: 0;
+  width: 2300px;
+}
+
+.headline{
+  font-size: 24px;
+  font-weight: 700;
+  /* font-family: Verdana, 'Geneva', Tahoma, sans-serif; */
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #444;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+.navbar span {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar .time  {
+  float: right;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+#scatter_plot,#word_cloud,#pie_donut_chart,#maps,.line_chart {
+  border:1px solid gray;
+  border-radius:10px;
+  height:700px;
+  width:600px ;
+  float: left; 
+  margin-left:2%;
+  margin-bottom: 2%;
+}
+
+#scatter_plot,#word_cloud,#pie_donut_chart,#maps,.line_chart{
+  width:700px ;
+  height:500px;
+		
+background-color: #ffffff;
+}
+
+/* #word_cloud{
+  width:700px ;
+  height:500px;
+} */
+
+
+html {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+input[type="range"] {
+  width:800px;
+}
+div {
+  text-align:center;
+}
+.background {
+  fill: none;
+  pointer-events: all;
+}
+
+.feature {
+ /* fill: #ccc;*/
+  cursor: pointer;
+}
+
+/* .feature.active {
+  fill: orange;
+} */
+
+.mesh {
+  fill: none;
+  stroke: #fff;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+path.line-1,path.line-2,path.line-3,path.line-4,path.line-5 {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+
+#checkbox_line_chart{
+  margin-top: 2%;
+  z-index: 4;
+}
+
+#line-chart_id{
+  z-index: 4;
+}
+
+#selectButton{
+	position: relative;
+  
+  width: 10em;
+  margin: 0 auto;
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+  font-size: 18px;
+  color: #60666d;
+}
+
+label{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+	
+background-color: #777;
+}

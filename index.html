@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>CSE 578 - Fall 2020 - Mini-Challenge 3-2019: Voice from the People</title>
+    <link rel='stylesheet' href='CSS/style.css'>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script>
+        var d3v4 = window.d3;
+        window.d3 = null;
+    </script>
+    <script src="https://d3js.org/d3.v5.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+  <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src='scripts/index.js'></script>
+	<style>
+.x-axis line, .x-axis path { stroke: #fff; }
+</style>
+  </head>
+  <body>
+    <div class="navbar">
+      <span>Mini-Challenge 3-2019: Voice from the People</span>
+      <a href="https://vast-challenge.github.io/2019/MC3.html">Challenge</a>
+      <a href="https://drive.google.com/file/d/1y4YbQG6Rdv2JVWJQ0ygNdAytn4AfG93-/view?usp=sharing">Demo Video</a>
+      <span class="time" id="navtime"></span>
+      <span class="time">Time :</span>
+    </div>
+    <div id='wrapper'>
+    <svg id='scatter_plot'></svg>
+	  <svg id='word_cloud'></svg>
+    <svg id='pie_donut_chart'></svg>
+    <div id='bar_chart'>
+      <label class="headline">Top Interactors</label><br>
+      <label for="selectButton">Select the type of Accounts:</label>
+      <select name="selectButton" id="selectButton">
+        <option value="Important Message">Important Accounts</option>
+        <option value="Official Account">Official Accounts</option>
+      </select>
+      <div id="bar_chart_svg"></div>
+	</div>
+    <div id="maps"></div>
+	  <br/>
+    
+  <div id="line_chart" >
+    
+    <div id="checkbox_line_chart">
+      <label class="headline">Sentiment Timeline</label><br>
+      <label for="speedAnimation">Speed of the animation:</label>
+		<input type="number" id="speedAnimation" name="speedAnimation" min="1000" max="60000" step="500" value="10000">
+		<div id="checkbox">
+		<input type="checkbox" class="emotionCheckBox" id="Happy" name="Happy" value="Happy" checked>
+		<label for="Happy"> Happy</label>
+		<input type="checkbox" class="emotionCheckBox" id="Sad" name="Sad" value="Sad" checked>
+		<label for="Sad"> Sad</label>
+		<input type="checkbox" class="emotionCheckBox" id="Surprise" name="Surprise" value="Surprise" checked>
+		<label for="Surprise"> Surprise</label>
+		<input type="checkbox" class="emotionCheckBox" id="Fear" name="Fear" value="Fear" checked>
+		<label for="Fear"> Fear</label>
+		<input type="checkbox" class="emotionCheckBox" id="Angry" name="Angry" value="Angry" checked>
+		<label for="Angry"> Angry</label>
+		<button type="button" id="line-chart-button">Submit</button>
+
+    </div>
+    <div id="line_chart_svg"></div>
+  </div>
+	</div>
+  </body>
+</html>
